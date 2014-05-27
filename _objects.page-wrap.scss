@@ -1,0 +1,31 @@
+/*------------------------------------*\
+    $PAGE-WRAP
+\*------------------------------------*/
+/**
+ * The main page-wrapper
+ */
+$page-wrap-padding:         $spacing-unit;
+$page-wrap-width:           1280px;
+
+$page-wrap--responsive:     false !default;
+$page-wrap-collapse-at:     720px !default;
+
+.page-wrap,
+%page-wrap{
+    max-width: $page-wrap-width;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: $page-wrap-padding;
+    padding-right: $page-wrap-padding;
+
+    @if ($page-wrap--responsive == true){
+
+        /**
+         * Responsive page-wrap, decreasing its padding at the breakpoint
+         */
+        @media screen and (max-width: $page-wrap-collapse-at){
+            padding-left: halve($page-wrap-padding);
+            padding-right: halve($page-wrap-padding);
+        };
+    }
+}

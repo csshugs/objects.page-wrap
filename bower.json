@@ -1,0 +1,15 @@
+{
+  "name": "genesis-page-wrap",
+  "version": "0.1.0",
+  "authors": [
+    "Dennis Heibuelt <dennis@csshugs.com>"
+  ],
+  "description": "A max-width container to wrap the page content",
+  "main": "_objects.page-wrap.scss",
+  "keywords": [
+    "genesis",
+    "css"
+  ],
+  "license": "Apache",
+  "homepage": "https://github.com/TryGenesis/objects.page-wrap"
+}
