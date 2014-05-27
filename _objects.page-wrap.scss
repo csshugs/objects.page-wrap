@@ -4,8 +4,8 @@
 /**
  * The main page-wrapper
  */
-$page-wrap-padding:         $spacing-unit;
-$page-wrap-width:           1280px;
+$page-wrap-padding:         $spacing-unit !default;
+$page-wrap-width:           1280px !default;
 
 $page-wrap--responsive:     false !default;
 $page-wrap-collapse-at:     720px !default;
