@@ -1,8 +1,9 @@
 /*------------------------------------*\
-    $PAGE-WRAP
+    #PAGE-WRAP
 \*------------------------------------*/
+
 /**
- * The main page-wrapper
+ * A main max-width page-wrapper.
  */
 $page-wrap-padding:         $inuit-base-spacing-unit !default;
 $page-wrap-width:           1280px !default;
@@ -21,7 +22,7 @@ $page-wrap-collapse-at:     720px !default;
     @if ($page-wrap--responsive == true){
 
         /**
-         * Responsive page-wrap, decreasing its padding at the breakpoint
+         * Responsive page-wrap, decreasing its padding at the breakpoint.
          */
         @media screen and (max-width: $page-wrap-collapse-at){
             padding-left: halve($page-wrap-padding);
