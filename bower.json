@@ -1,19 +1,20 @@
 {
-  "name": "genesis-page-wrap",
-  "version": "0.1.5",
+  "name": "inuit-page-wrap",
+  "version": "0.1.6",
+  "homepage": "https://github.com/TryGenesis/objects.page-wrap",
   "authors": [
     "Dennis Heibuelt <dennis@csshugs.com>"
   ],
   "description": "A max-width container to wrap the page content",
   "main": "_objects.page-wrap.scss",
   "keywords": [
-    "genesis",
+    "inuitcss",
+    "oocss",
     "css"
   ],
   "license": "Apache",
-  "homepage": "https://github.com/TryGenesis/objects.page-wrap",
   "dependencies": {
-    "inuit-defaults": "~0.2.0",
+    "inuit-defaults": "~0.2.1",
     "inuit-functions": "~0.2.0"
   }
 }
