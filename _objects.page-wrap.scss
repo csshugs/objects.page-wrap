@@ -6,13 +6,13 @@
  * A main max-width page-wrapper.
  */
 $inuit-page-wrap-padding:               $inuit-base-spacing-unit !default;
+$inuit-page-wrap-padding--responsive:   $inuit-base-spacing-unit !default;
 $inuit-page-wrap-width:                 1280px !default;
 
 $inuit-enable-page-wrap--responsive:    false !default;
 $inuit-page-wrap-collapse-at:           720px !default;
 
-.page-wrap,
-%page-wrap{
+.page-wrap {
     max-width: $inuit-page-wrap-width;
     margin-left: auto;
     margin-right: auto;
@@ -26,8 +26,8 @@ $inuit-page-wrap-collapse-at:           720px !default;
          * at the given breakpoint.
          */
         @media screen and (max-width: $inuit-page-wrap-collapse-at){
-            padding-left: halve($inuit-page-wrap-padding);
-            padding-right: halve($inuit-page-wrap-padding);
+            padding-left: $inuit-page-wrap-padding--responsive;
+            padding-right: $inuit-page-wrap-padding--responsive;
         };
     }
 }

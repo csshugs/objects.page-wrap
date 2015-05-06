@@ -1,7 +1,7 @@
 {
   "name": "inuit-page-wrap",
-  "version": "0.1.7",
-  "homepage": "https://github.com/TryGenesis/objects.page-wrap",
+  "version": "0.2.0",
+  "homepage": "https://github.com/csshugs/objects.page-wrap",
   "authors": [
     "Dennis Heibuelt <dennis@csshugs.com>"
   ],
@@ -14,7 +14,7 @@
   ],
   "license": "Apache",
   "dependencies": {
-    "inuit-defaults": "~0.2.1",
+    "inuit-defaults": "~0.2.3",
     "inuit-functions": "~0.2.0"
   }
 }
