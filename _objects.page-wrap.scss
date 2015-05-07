@@ -5,6 +5,10 @@
 /**
  * A main max-width page-wrapper.
  */
+
+// Predefine the variables below in order to alter and enable specific features.
+$inuit-page-wrap-namespace:             $inuit-namespace !default;
+
 $inuit-page-wrap-padding:               $inuit-base-spacing-unit !default;
 $inuit-page-wrap-padding--responsive:   $inuit-base-spacing-unit !default;
 $inuit-page-wrap-width:                 1280px !default;
@@ -12,8 +16,8 @@ $inuit-page-wrap-width:                 1280px !default;
 $inuit-enable-page-wrap--responsive:    false !default;
 $inuit-page-wrap-collapse-at:           720px !default;
 
-.page-wrap {
-    max-width: $inuit-page-wrap-width;
+.#{$inuit-page-wrap-namespace}o-page-wrap {
+    max-width: $inuit-page-wrap-width + ($inuit-page-wrap-padding * 2);
     margin-left: auto;
     margin-right: auto;
     padding-left: $inuit-page-wrap-padding;
@@ -29,5 +33,7 @@ $inuit-page-wrap-collapse-at:           720px !default;
             padding-left: $inuit-page-wrap-padding--responsive;
             padding-right: $inuit-page-wrap-padding--responsive;
         };
+
     }
+
 }
